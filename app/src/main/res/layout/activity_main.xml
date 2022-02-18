@@ -1,0 +1,41 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <EditText
+       android:hint=" ENTER YOUR NAME"
+       android:textSize="20dp"
+       android:id="@+id/name"
+       android:layout_margin="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+    <EditText
+        android:hint=" ENTER YOUR  FRIEND'S NAME"
+        android:textSize="20dp"
+        android:id="@+id/fndname"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint=" ENTER YOUR FRIEND'S NICK NAME"
+        android:textSize="20dp"
+        android:id="@+id/nickname"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint=" DESCRIBE YOUR FRIEND"
+        android:textSize="20dp"
+        android:id="@+id/describe"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+ android:text="SUBMIT"
+        android:textSize="20dp"
+        android:id="@+id/submit"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
