@@ -1,0 +1,28 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C87D7D"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<EditText
+    android:hint="ENTER NAME"
+    android:id="@+id/name"
+    android:textSize="20dp"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="ROLL NO"
+        android:id="@+id/roll"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:text="SUBMIT"
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
